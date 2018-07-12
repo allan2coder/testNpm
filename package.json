@@ -1,5 +1,5 @@
 {
-  "name": "@ali/water-mask",
+  "name": "water-mask",
   "version": "1.0.2",
   "description": "水印",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://github.com/allan2coder/testNpm"
+    "registry": "https://github.com/allan2coder"
   },
   "_from": "water-mask@1.0.2"
 }
