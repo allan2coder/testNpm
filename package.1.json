@@ -8,12 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:allan2coder/testNpm.git"
+    "url": "git@gitlab.alibaba-inc.com:changyuan.lcy/ding-water-mask.git"
   },
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://github.com/allan2coder/testNpm"
+    "registry": "http://registry.npm.alibaba-inc.com"
   },
-  "_from": "water-mask@1.0.2"
+  "_from": "@ali/water-mask@1.0.2",
+  "_resolved": "http://registry.npm.alibaba-inc.com/@ali/water-mask/download/@ali/water-mask-1.0.2.tgz"
 }
