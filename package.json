@@ -1,19 +1,23 @@
 {
   "name": "water-mask",
-  "version": "1.0.2",
-  "description": "水印",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:allan2coder/testNpm.git"
+    "url": "git+ssh://git@github.com/allan2coder/water-mask.git"
   },
-  "author": "",
+  "keywords": [
+    "water",
+    "mask"
+  ],
+  "author": "allan",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://github.com/allan2coder"
+  "bugs": {
+    "url": "https://github.com/allan2coder/water-mask/issues"
   },
-  "_from": "water-mask@1.0.2"
+  "homepage": "https://github.com/allan2coder/water-mask#readme"
 }
