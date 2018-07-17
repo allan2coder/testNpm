@@ -42,5 +42,6 @@ The API is: **WaterMask(text, options)**.
    - **color** (String): the text color, default is `#ebebeb`.
    - **alpha** (Float): the text alpha(0 ~ 1), default is `0.8`.
    - **font** (String): the text font style, default is `10px Arial`.
+   - **groupName** (String): group name.
 
 The api return **the base64 string of watermark image** which can be used in css background / img tag.
