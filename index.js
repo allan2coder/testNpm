@@ -1,5 +1,5 @@
 /**
- * alimask( text, options ) 
+ * rldmask( text, options ) 
  * @param text (String): this text on water mask.
  * @param options (Object): water mask options. 
  * @prop options
@@ -18,7 +18,7 @@
 		module.exports = factory(root); // nodejs support
 		module.exports['default'] = module.exports; // es6 support
 	} else {
-		root.alimask = factory(root);
+		root.rldMask = factory(root);
 	}
 }(typeof window !== 'undefined' ? window : this, function () {
 	var canvas, ctx;
@@ -68,8 +68,8 @@
 		ctx.translate(width * 0.1, height * 0.9); // margin: 10
 		ctx.rotate(-Math.PI / 12); // 15 degree
 		ctx.fillText(text, 0, 0);
-		ctx.fillText('钉钉', 180, 50);
+		ctx.fillText('人力丁', 180, 50);
 
-		return canvas.toDataURL();
+		return canvas.toDataURL(); // convert 
 	};
 });
