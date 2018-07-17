@@ -1,11 +1,51 @@
 # water-mask
-#### usage 
-```
-import WaterMask from "water-mask";
 
-WaterMask("Water Mask Text", {
-    width: 340,
-    height: 200,
-    font: "24px Arial"
-})
+> **WaterMask** 是一个使用 canvas 制作的水印图片的 JavaScript 库。
+
+# 1. Install
+
+> npm install water-mask
+
+Then import it.
+
+```js
+<script type="text/javascript" src="path/index.js"></script>
+// or
+var WaterMask = require('water-mask');
+// or
+import WaterMask from "water-mask";
 ```
+
+Then use **alimask(text, options)** API.
+
+```js
+WaterMask('阿花');
+
+WaterMask('阿花', { color: '#f6dcd7' });
+
+WaterMask('阿花', { alpha: 0.5 });
+```
+
+
+# 2. API
+
+The API is: **WaterMask(text, options)**.
+ 
+ - **text** (String): required, the text in the watermark image. 
+ - **options** (Object): optional, the options of watermark, with keys below:
+   - **width** (Number): default is `250`.
+   - **height** (Number): default is `80`.
+   - **color** (String): the text color, default is `#ebebeb`.
+   - **alpha** (Float): the text alpha(0 ~ 1), default is `0.8`.
+   - **font** (String): the text font style, default is `10px Arial`.
+
+The api return **the base64 string of watermark image** which can be used in css background / img tag.
+
+
+# 3. Build & Test
+
+> npm install
+
+> npm run build
+
+> npm test
