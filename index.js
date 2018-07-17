@@ -9,6 +9,7 @@
 		color: '#ebebeb',
 		alpha: 0.8,
 		font: '10px Arial'
+		groupName: '阿花科技'
 	}
  * @return (String) return base64 of background water mask image.
 **/
@@ -47,7 +48,8 @@
 		}
 		options = mergeOptions(options);
 		var width = options.width,
-			height = options.height;
+			height = options.height,
+			groupName = options.groupName;
 
 		canvas.width = width;
 		canvas.height = height;
@@ -68,7 +70,7 @@
 		ctx.translate(width * 0.1, height * 0.9); // margin: 10
 		ctx.rotate(-Math.PI / 12); // 15 degree
 		ctx.fillText(text, 0, 0);
-		ctx.fillText('人力丁', 180, 50);
+		ctx.fillText(groupName, 180, 50);
 
 		return canvas.toDataURL(); // convert 
 	};
