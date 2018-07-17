@@ -1,5 +1,5 @@
 /**
- * rldmask( text, options ) 
+ * watermask( text, options ) 
  * @param text (String): this text on water mask.
  * @param options (Object): water mask options. 
  * @prop options
@@ -18,7 +18,7 @@
 		module.exports = factory(root); // nodejs support
 		module.exports['default'] = module.exports; // es6 support
 	} else {
-		root.rldMask = factory(root);
+		root.watermask = factory(root);
 	}
 }(typeof window !== 'undefined' ? window : this, function () {
 	var canvas, ctx;
