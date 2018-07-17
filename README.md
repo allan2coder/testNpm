@@ -3,6 +3,8 @@
 > **WaterMask** 是一个使用 canvas 制作的水印图片的 JavaScript 库。
 
 ![image](https://raw.githubusercontent.com/allan2coder/water-mask/master/watermask.png)
+![image](https://raw.githubusercontent.com/allan2coder/water-mask/master/watermask.png)
+![image](https://raw.githubusercontent.com/allan2coder/water-mask/master/watermask.png)
 
 # 1. Install
 
