@@ -6,7 +6,7 @@
 ![image](https://raw.githubusercontent.com/allan2coder/water-mask/master/watermask.png)
 ![image](https://raw.githubusercontent.com/allan2coder/water-mask/master/watermask.png)
 
-# 1. Install
+### Install
 
 > npm install water-mask
 
@@ -31,7 +31,7 @@ WaterMask('阿花', { alpha: 0.5 });
 ```
 
 
-# 2. API
+### API
 
 The API is: **WaterMask(text, options)**.
  
